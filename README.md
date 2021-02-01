@@ -43,7 +43,8 @@ For those using Ubuntu on Windows 10, if you’re using the emulator, the applic
 - Log in with your Expo account in the Expo client on your de-vice/emulator.
 - In Ubuntu bash, log in with your Expo account by running `expo login`.
   Now that you’re logged in on both bash and the device/emulator, whenever you start Expo (e.g., `npm start`, `expo start`) in Ubuntu bash, the application will automatically appear under the “RECENTLY IN DEVELOPMENT” label in the Expo client on the device/emulator. Once it appears, you can click to open it, and the Metro Bundler will start compiling the code. Keep in mind that for this approach to work, both your PC and your device/emulator need to have access to the internet even after installing the Expo client and logging in.
-  Please note, this might also apply for running the emulator on Windiws using Windows PowerShell instead of Ubunto on Windows.
+
+Please note, this might also apply for running the emulator on Windiws using Windows PowerShell instead of Ubunto on Windows.
 
 ## Firebase Setup
 
@@ -90,4 +91,5 @@ You can also run the app on your personal mobile device:
 
 - **Android:** Open the Expo app on your Android device, navigate to the user icon in the bottom right, and sign in if you haven't already. Then, navigate back to the Projects tab, and scan the QR code that was generated in the terminal and the Metro Bundler in the browser.
 - **iPhone:** Keep open the camera app and focus it on the QR code that was generated in the terminal and the Metro Bundler in the browser.
-  The app will open, the user will enter their name, choose a background color for the chat screen, and begin chatting.
+
+The app will open, the user will enter their name, choose a background color for the chat screen, and begin chatting.
