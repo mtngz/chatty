@@ -1,6 +1,25 @@
-# chat
+# **chatty**
 
 This chat app is a React Native application built using Expo's gifted-chat and Google Firebase to create a chat app that runs in real-time, for Android and iOS.
+
+## Demo
+
+![Screen recording of project](assets/chatty.gif)
+
+## Features
+
+- Users can enter their name and select a background color for their chat screen before beginning to chat.
+- A page displays the user's conversation and allows them to continue the conversation with an input field and submit button.
+- In addition to sending text, users can send images and their location.
+- Data is stored both online and offline.
+
+## Technologies
+
+- React Native
+- Expo
+- Google Firestore Database
+- Android Studio
+- Gifted Chat Library
 
 ## Installing Expo
 
